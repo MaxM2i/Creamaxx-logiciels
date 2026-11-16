@@ -1,1 +1,122 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Présentez votre projet à Créamaxx et joignez votre cahier des charges, vos plans ou vos fichiers de travail."><title>Parler de votre projet — Créamaxx</title><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"></head><body><header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">C<span>+</span></span><span>créamaxx<small>LOGICIELS SUR MESURE</small></span></a><button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Accueil</a><a href="solutions.html">Solutions</a><a href="realisations.html">Réalisations</a><a href="methode.html">Méthode</a><a href="apropos.html">À propos</a><a class="nav-cta active" href="contact.html">Parler de mon projet <b>↗</b></a></nav></header><main><section class="page-hero contact-hero wrap"><div class="eyebrow">CONTACT / NOUVEAU PROJET</div><h1>Parlons de ce que<br><em>vous souhaitez construire.</em></h1><p class="lead">Plus votre besoin est documenté, plus notre premier échange sera concret. Vous pouvez joindre votre cahier des charges, des exemples de fichiers ou tout document utile.</p><div class="contact-points"><span>✓ Pas besoin d'un cahier des charges finalisé</span><span>✓ Vos pièces jointes servent à préparer l'échange</span><span>✓ Un interlocuteur direct</span></div></section><section class="wrap contact-layout"><aside class="contact-aside"><div class="eyebrow">PRÉPARER L'ÉCHANGE</div><h2>Quelques éléments<br>pour bien démarrer.</h2><p>Décrivez le contexte, les utilisateurs concernés et le résultat attendu. Même quelques lignes suffisent pour commencer.</p><div class="aside-card"><span class="aside-icon">↗</span><b>Vous avez déjà un cahier des charges ?</b><p>Joignez-le au formulaire. Vous éviterez de ressaisir des informations et nous pourrons préparer un premier retour plus ciblé.</p></div><div class="aside-meta"><small>FORMATS ACCEPTÉS</small><p>PDF · DOCX · XLSX · PPTX · ODT · ODS · TXT · ZIP · Images</p><small>TAILLE MAXIMALE</small><p>15 Mo par fichier · 5 fichiers maximum</p></div></aside><form class="contact-form" id="project-form" action="contact.php" method="post" enctype="multipart/form-data" novalidate><div class="form-heading"><div><div class="eyebrow">FORMULAIRE PROJET / 01</div><h2>Présentez votre besoin</h2></div><span class="required-note">* Champs obligatoires</span></div><div class="form-grid"><label>Nom et prénom *<input name="name" autocomplete="name" required placeholder="Votre nom"></label><label>Adresse e-mail professionnelle *<input type="email" name="email" autocomplete="email" required placeholder="vous@entreprise.fr"></label><label>Entreprise<input name="company" autocomplete="organization" placeholder="Nom de votre entreprise"></label><label>Votre secteur<select name="industry"><option value="">Sélectionner un secteur</option><option>Bureau d'études</option><option>Industrie</option><option>Environnement / géotechnique</option><option>Entreprise technique</option><option>Autre</option></select></label><label class="full">Quel type de besoin ? *<select name="need" required><option value="">Sélectionner une prestation</option><option>Automatisation Excel / VBA</option><option>Logiciel métier sur mesure</option><option>Génération de documents</option><option>Outil de suivi / tableau de bord</option><option>Autre / à définir ensemble</option></select></label><label class="full">Décrivez votre projet *<textarea name="message" rows="5" required placeholder="Quel problème souhaitez-vous résoudre ? Comment procédez-vous aujourd'hui ? Quel résultat attendez-vous ?"></textarea></label></div><div class="upload-block"><div class="upload-heading"><div><b>Documents et cahier des charges</b><p>Ajoutez les éléments qui nous aideront à comprendre votre besoin.</p></div><span class="optional">FACULTATIF</span></div><label class="dropzone" id="dropzone" for="attachments"><input id="attachments" type="file" name="attachments[]" multiple accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.odt,.ods,.txt,.zip,.png,.jpg,.jpeg"><span class="upload-symbol">↑</span><strong>Glissez-déposez vos fichiers ici</strong><span>ou <u>parcourir votre ordinateur</u></span><small>PDF, Word, Excel, PowerPoint, ZIP ou images · 15 Mo par fichier · 5 fichiers max.</small></label><div id="file-list" class="file-list" aria-live="polite"></div><p class="privacy-hint">Évitez de transmettre des mots de passe, données sensibles ou informations personnelles qui ne sont pas nécessaires à l'étude du projet.</p></div><label class="consent"><input type="checkbox" name="consent" value="yes" required><span>J'accepte que les informations transmises soient utilisées pour répondre à ma demande. * <a href="confidentialite.html">Consulter la politique de confidentialité</a>.</span></label><label class="honeypot" aria-hidden="true">Ne pas remplir<input name="website" tabindex="-1" autocomplete="off"></label><div class="form-bottom"><span>Les champs marqués * sont obligatoires.</span><button class="btn primary" type="submit">Envoyer ma demande <span>↗</span></button></div><p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p><noscript><p class="privacy-hint">JavaScript est nécessaire pour afficher la liste des fichiers sélectionnés. L'envoi du formulaire nécessite également un hébergement compatible PHP.</p></noscript></form></section></main><footer class="footer"><div class="wrap footer-inner"><a class="brand inverse" href="index.html"><span class="brand-mark">C<span>+</span></span><span>créamaxx<small>LOGICIELS SUR MESURE</small></span></a><p>Des outils numériques pensés autour de vos métiers.</p><div><a href="contact.html">Contact</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a></div><small>© <span data-year></span> Créamaxx. Tous droits réservés.</small></div></footer><script src="assets/main.js"></script><script src="assets/contact.js"></script></body></html>
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Présentez votre projet à Créamaxx et joignez votre cahier des charges, vos plans ou vos fichiers de travail.">
+    <title>Parler de votre projet — Créamaxx</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header class="topbar"><a class="brand" href="index.html"><span
+                class="brand-mark">C<span>+</span></span><span>créamaxx<small>LOGICIELS SUR
+                    MESURE</small></span></a><button class="menu-toggle" aria-label="Ouvrir le menu"
+            aria-expanded="false">☰</button>
+        <nav class="nav"><a href="index.html">Accueil</a><a href="solutions.html">Solutions</a><a
+                href="realisations.html">Réalisations</a><a href="methode.html">Méthode</a><a href="apropos.html">À
+                propos</a><a class="nav-cta active" href="contact.html">Parler de mon projet <b>↗</b></a></nav>
+    </header>
+    <main>
+        <section class="page-hero contact-hero wrap">
+            <div class="eyebrow">CONTACT / NOUVEAU PROJET</div>
+            <h1>Parlons de ce que<br><em>vous souhaitez construire.</em></h1>
+            <p class="lead">Plus votre besoin est documenté, plus notre premier échange sera concret. Vous pouvez
+                joindre votre cahier des charges, des exemples de fichiers ou tout document utile.</p>
+            <div class="contact-points"><span>✓ Pas besoin d'un cahier des charges finalisé</span><span>✓ Vos pièces
+                    jointes servent à préparer l'échange</span><span>✓ Un interlocuteur direct</span></div>
+        </section>
+        <section class="wrap contact-layout">
+            <aside class="contact-aside">
+                <div class="eyebrow">PRÉPARER L'ÉCHANGE</div>
+                <h2>Quelques éléments<br>pour bien démarrer.</h2>
+                <p>Décrivez le contexte, les utilisateurs concernés et le résultat attendu. Même quelques lignes
+                    suffisent pour commencer.</p>
+                <div class="aside-card"><span class="aside-icon">↗</span><b>Vous avez déjà un cahier des charges ?</b>
+                    <p>Joignez-le au formulaire. Vous éviterez de ressaisir des informations et nous pourrons préparer
+                        un premier retour plus ciblé.</p>
+                </div>
+                <div class="aside-meta"><small>FORMATS ACCEPTÉS</small>
+                    <p>PDF · DOCX · XLSX · PPTX · ODT · ODS · TXT · ZIP · Images</p><small>TAILLE MAXIMALE</small>
+                    <p>15 Mo par fichier · 5 fichiers maximum</p>
+                </div>
+            </aside>
+            <form class="contact-form" id="project-form" action="contact.php" method="post"
+                enctype="multipart/form-data" novalidate>
+                <div class="form-heading">
+                    <div>
+                        <div class="eyebrow">FORMULAIRE PROJET / 01</div>
+                        <h2>Présentez votre besoin</h2>
+                    </div><span class="required-note">* Champs obligatoires</span>
+                </div>
+                <div class="form-grid"><label>Nom et prénom *<input name="name" autocomplete="name" required
+                            placeholder="Votre nom"></label><label>Adresse e-mail professionnelle *<input type="email"
+                            name="email" autocomplete="email" required
+                            placeholder="vous@entreprise.fr"></label><label>Entreprise<input name="company"
+                            autocomplete="organization" placeholder="Nom de votre entreprise"></label><label>Votre
+                        secteur<select name="industry">
+                            <option value="">Sélectionner un secteur</option>
+                            <option>Bureau d'études</option>
+                            <option>Industrie</option>
+                            <option>Environnement / géotechnique</option>
+                            <option>Entreprise technique</option>
+                            <option>Autre</option>
+                        </select></label><label class="full">Quel type de besoin ? *<select name="need" required>
+                            <option value="">Sélectionner une prestation</option>
+                            <option>Automatisation Excel / VBA</option>
+                            <option>Logiciel métier sur mesure</option>
+                            <option>Génération de documents</option>
+                            <option>Outil de suivi / tableau de bord</option>
+                            <option>Autre / à définir ensemble</option>
+                        </select></label><label class="full">Décrivez votre projet *<textarea name="message" rows="5"
+                            required
+                            placeholder="Quel problème souhaitez-vous résoudre ? Comment procédez-vous aujourd'hui ? Quel résultat attendez-vous ?"></textarea></label>
+                </div>
+                <div class="upload-block">
+                    <div class="upload-heading">
+                        <div><b>Documents et cahier des charges</b>
+                            <p>Ajoutez les éléments qui nous aideront à comprendre votre besoin.</p>
+                        </div><span class="optional">FACULTATIF</span>
+                    </div><label class="dropzone" id="dropzone" for="attachments"><input id="attachments" type="file"
+                            name="attachments[]" multiple
+                            accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.odt,.ods,.txt,.zip,.png,.jpg,.jpeg"><span
+                            class="upload-symbol">↑</span><strong>Glissez-déposez vos fichiers ici</strong><span>ou
+                            <u>parcourir votre ordinateur</u></span><small>PDF, Word, Excel, PowerPoint, ZIP ou images ·
+                            15 Mo par fichier · 5 fichiers max.</small></label>
+                    <div id="file-list" class="file-list" aria-live="polite"></div>
+                    <p class="privacy-hint">Évitez de transmettre des mots de passe, données sensibles ou informations
+                        personnelles qui ne sont pas nécessaires à l'étude du projet.</p>
+                </div><label class="consent"><input type="checkbox" name="consent" value="yes" required><span>J'accepte
+                        que les informations transmises soient utilisées pour répondre à ma demande. * <a
+                            href="confidentialite.html">Consulter la politique de
+                            confidentialité</a>.</span></label><label class="honeypot" aria-hidden="true">Ne pas
+                    remplir<input name="website" tabindex="-1" autocomplete="off"></label>
+                <div class="form-bottom"><span>Les champs marqués * sont obligatoires.</span><button class="btn primary"
+                        type="submit">Envoyer ma demande <span>↗</span></button></div>
+                <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p><noscript>
+                    <p class="privacy-hint">JavaScript est nécessaire pour afficher la liste des fichiers sélectionnés.
+                        L'envoi du formulaire nécessite également un hébergement compatible PHP.</p>
+                </noscript>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrap footer-inner"><a class="brand inverse" href="index.html"><span
+                    class="brand-mark">C<span>+</span></span><span>créamaxx<small>LOGICIELS SUR
+                        MESURE</small></span></a>
+            <p>Des outils numériques pensés autour de vos métiers.</p>
+            <div><a href="contact.html">Contact</a><a href="mentions-legales.html">Mentions légales</a><a
+                    href="confidentialite.html">Confidentialité</a></div><small>© <span data-year></span> Créamaxx. Tous
+                droits réservés.</small>
+        </div>
+    </footer>
+    <script src="assets/main.js"></script>
+    <script src="assets/contact.js"></script>
+</body>
+
+</html>
